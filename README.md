@@ -30,7 +30,7 @@ La demande : trois vues (monde, continent, pays), un nuage de points par domaine
 
 - Écrit le **blueprint** avant d'ouvrir l'outil : 12 visuels répartis sur 3 vues, et 5 filtres
 - Nettoyé et relié **5 fichiers** (OMS et FAO) dans **Power Query**, jointure réussie à 99 %
-- Construit un **modèle en étoile** : les pays et les années au centre, 4 tables de données autour
+- Construit un **schéma en constellation** : 4 tables de faits qui partagent 2 dimensions, les pays et les années
 - Écrit les **mesures DAX** : moyennes pondérées par la population, efficacité de la politique de l'eau, seuil de stabilité réglable
 - Rendu le rapport **accessible** : textes de remplacement, ordre de tabulation, valeurs écrites, unités dans les titres
 - **Mesuré la vitesse** de chaque visuel avec l'analyseur de performances
@@ -53,7 +53,7 @@ Tout le nettoyage est fait dans Power Query. Il se rejoue à chaque actualisatio
 
 ![Modèle des données](captures/04-modele-donnees.png)
 
-Un schéma en étoile : `Pays` et `Annee` au centre, `Eau`, `Population`, `Stabilite` et `Mortalite` autour. Les 8 relations partent du centre, dans un seul sens. Quand on choisit un pays ou une année, le filtre descend vers toutes les tables.
+Un schéma en constellation : 4 tables de faits (`Eau`, `Population`, `Stabilite`, `Mortalite`) partagent 2 tables de dimensions (`Pays` et `Annee`). Chaque table de faits forme une étoile avec ces deux dimensions, et les 4 étoiles ont le même centre. Les 8 relations partent des dimensions, dans un seul sens. Quand on choisit un pays ou une année, le filtre descend vers toutes les tables de faits.
 
 La table `Annee` est générée en DAX (2000 à 2017). La table `Seuil stabilite`, seule à droite, est un paramètre : c'est elle qui porte le curseur. Elle n'a pas besoin d'être reliée.
 
@@ -164,7 +164,7 @@ Le Ghana est à 81,5 % d'accès de base en 2017, bien au-dessus de la moyenne af
 
 Relevé de l'analyseur de performances sur les 3 pages : **66 ms de calcul DAX en moyenne, 151 ms au pire**, et chaque visuel affiché en **moins de 1,2 seconde**. Le reste du temps, c'est le dessin, surtout pour les nuages de points avec les noms des pays.
 
-Cette vitesse vient du modèle : schéma en étoile, relations dans un seul sens, colonnes au bon type, et des mesures plutôt que des colonnes calculées.
+Cette vitesse vient du modèle : dimensions partagées, relations dans un seul sens, colonnes au bon type, et des mesures plutôt que des colonnes calculées.
 
 ---
 
@@ -187,7 +187,7 @@ Le document qui a fixé les indicateurs de chaque vue avant la construction : [p
 
 ## 🛠️ Technologies utilisées
 
-Power BI Desktop · Power Query · DAX · modèle en étoile · paramètre de simulation (seuil réglable) · carte choroplèthe · nuages de points avec lignes de moyenne · analyseur de performances
+Power BI Desktop · Power Query · DAX · schéma en constellation · paramètre de simulation (seuil réglable) · carte choroplèthe · nuages de points avec lignes de moyenne · analyseur de performances
 
 ---
 
@@ -222,7 +222,7 @@ acces-eau-potable-dwfa.pbix    le rapport complet, données embarquées
 - ✅ Cases vides gardées et chiffrées plutôt que supprimées
 
 ### Modélisation
-- ✅ Modèle en étoile à partir de fichiers plats, table des années générée en DAX
+- ✅ Schéma en constellation (4 tables de faits, 2 dimensions partagées) à partir de fichiers plats, table des années générée en DAX
 - ✅ Moyennes pondérées par la population, pour qu'un grand pays pèse plus qu'un petit
 - ✅ Indicateur composite (efficacité de la politique de l'eau) construit à partir de deux mesures
 - ✅ Paramètre réglable qui filtre la carte et trois nuages de points à la fois
