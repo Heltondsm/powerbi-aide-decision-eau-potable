@@ -168,14 +168,14 @@ Cette vitesse vient du modèle : dimensions partagées, relations dans un seul s
 
 ---
 
-## ⚠️ Limites
+## 🔎 Points de vigilance sur les données
 
 - **7 pays africains sur 47** ont une donnée « eau sûre » en 2017 : le domaine 2 repose sur peu de points
 - La **mortalité** n'existe que pour 2016 : le domaine 3 se juge sur une seule année
 - La courbe mondiale de l'eau sûre fait un **saut en 2005** : cette année-là, les États-Unis et la Pologne entrent dans les données, et leur poids fait monter la moyenne
 - Certains pays, comme **Madagascar**, n'ont aucune donnée d'eau sûre
 
-Avant de présenter ces pays au bailleur, je conseillerais de compléter l'eau sûre avec les données du programme commun OMS et UNICEF ([washdata.org](https://washdata.org)).
+Pour aller plus loin, je recommande de compléter l'eau sûre avec les données du programme commun OMS et UNICEF ([washdata.org](https://washdata.org)).
 
 ---
 
@@ -233,7 +233,7 @@ acces-eau-potable-dwfa.pbix    le rapport complet, données embarquées
 - ✅ Trois vues du plus large au plus précis : monde, continent, pays
 - ✅ Accessibilité : palette unique, textes de remplacement, ordre de tabulation, unités écrites
 - ✅ Vitesse mesurée visuel par visuel, pas supposée
-- ✅ Recommandation argumentée, avec ses limites
+- ✅ Recommandation argumentée et sourcée
 
 ---
 
@@ -251,9 +251,9 @@ Data Analyst / Data Engineer | 10 ans d'expérience business (retail et e-commer
 ## 🔗 Autres projets
 
 - [Portefeuille de 104 projets dans 52 pays](https://github.com/Heltondsm/powerbi-portefeuille-projets-rls), Power BI, sécurité au niveau des lignes sur 3 rôles
-- [Tendances du streaming musical](https://github.com/Heltondsm/analyse-streaming-musical), 114 000 morceaux, tests statistiques et prévision Prophet comparée à un modèle naïf
+- [Tendances du streaming musical](https://github.com/Heltondsm/analyse-streaming-musical), 114 000 morceaux, tests statistiques et calendrier de sortie
 - [Pipeline dbt : profils sociodémographiques](https://github.com/Heltondsm/dbt-demographics-pipeline), Snowflake et DuckDB, 26 tests, reproductible en une commande
-- [Pipeline de veille du marché de l'emploi](https://github.com/Heltondsm/job-market-pipeline), APIs France Travail et INSEE Sirene, 698 offres et 1 166 entreprises en 11 secondes
+- [Pipeline de veille du marché de l'emploi](https://github.com/Heltondsm/job-market-pipeline), APIs France Travail et INSEE Sirene, 787 offres et 1 135 entreprises en 14 secondes
 
 ---
 
