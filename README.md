@@ -1,4 +1,4 @@
-# 💧 Accès à l'eau potable : dans quel pays investir, et pour quel domaine ?
+# 💧 Aide à la décision : cibler les investissements d'une ONG dans l'accès à l'eau
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat-square&logo=microsoft&logoColor=white)
