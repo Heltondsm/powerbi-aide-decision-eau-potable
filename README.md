@@ -1,8 +1,8 @@
 # 💧 Aide à la décision : cibler les investissements d'une ONG dans l'accès à l'eau
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power%20Query-2ea44f?style=flat-square&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UG93ZXIgQkk8L3RpdGxlPjxwYXRoIGQ9Ik0xMCAxMmExIDEgMCAwIDEgMSAxdjExSDRhMSAxIDAgMCAxLTEtMVYxM2ExIDEgMCAwIDEgMS0xaDZabS0yLS41VjdhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MTdoLTQuNVYxM2ExLjUgMS41IDAgMCAwLTEuNS0xLjVIOFptNS02VjFhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MjJhMSAxIDAgMCAxLTEgMWgtMy41VjdBMS41IDEuNSAwIDAgMCAxNSA1LjVoLTJaIi8+PC9zdmc+)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWljcm9zb2Z0PC90aXRsZT48cGF0aCBkPSJNMCAwdjExLjQwOGgxMS40MDhWMHptMTIuNTk0IDB2MTEuNDA4SDI0VjB6TTAgMTIuNTk0VjI0aDExLjQwOFYxMi41OTR6bTEyLjU5NCAwVjI0SDI0VjEyLjU5NHoiLz48L3N2Zz4=)
+![Power Query](https://img.shields.io/badge/Power%20Query-2ea44f?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWljcm9zb2Z0PC90aXRsZT48cGF0aCBkPSJNMCAwdjExLjQwOGgxMS40MDhWMHptMTIuNTk0IDB2MTEuNDA4SDI0VjB6TTAgMTIuNTk0VjI0aDExLjQwOFYxMi41OTR6bTEyLjU5NCAwVjI0SDI0VjEyLjU5NHoiLz48L3N2Zz4=)
 ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-3b82f6?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
 
