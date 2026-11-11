@@ -251,6 +251,7 @@ Data Analyst | 10 ans d'expérience business (retail et e-commerce)
 ## 🔗 Autres projets
 
 - [CRM data et agents IA : centraliser opportunités, contacts et échanges](https://github.com/Heltondsm/crm-data-agents-ia), PostgreSQL alimenté par des API, collecte Python planifiée, opportunités notées par IA, testé automatiquement à chaque push
+- [Étude de marché par clustering : choisir les pays où exporter de la volaille bio](https://github.com/Heltondsm/python-etude-marche-clustering-pays), ACP, CAH et k-means sur 170 pays, 4 familles, 3 marchés prioritaires
 - [Portefeuille de 104 projets dans 52 pays](https://github.com/Heltondsm/powerbi-portefeuille-projets-rls), Power BI, sécurité au niveau des lignes sur 3 rôles
 - [Tendances du streaming musical](https://github.com/Heltondsm/analyse-streaming-musical), 114 000 morceaux, tests statistiques et calendrier de sortie
 - [Pipeline dbt : profils sociodémographiques](https://github.com/Heltondsm/dbt-demographics-pipeline), Snowflake et DuckDB, 26 tests, reproductible en une commande
